@@ -9,7 +9,7 @@ type Props={
 export default function Lista(pers:Props)  {
     return(
         <div class="characters">
-            {pers.personajes.map(r=> <li><Card personaje={r}/></li>)}
+            {pers.personajes.map(r=> <a><Card personaje={r}/></a>)}
         </div>
 
     )
